@@ -1,0 +1,32 @@
+const url = "https://pokeapi.co/api/v2/pokemon";
+let results = null;
+// takes a fetch response and checks to make sure it was OK.
+// then returns the body of the response as a PROMISE to some JSON.
+function convertToJson(response) {
+if (response.ok) {
+    return response.json();
+} else {
+    console.log("error:", response);
+}
+}
+// this is where we would do whatever we needed to do with the resulting data.
+function doStuff(data) {
+results = data;
+console.log("first: ", results);
+}
+
+
+function doStuffList(data) {
+    console.log(data);
+    const pokeListElement = document.querySelector('#pokeList');
+    const pokeList = data.results;
+    pokeList.forEach((currentItem) => {
+        const html = `<li>${currentItem.name}</li>`;
+        // note the += here...
+        pokeListElement.innerHTML += html;
+    })
+    }
+
+// read this as: make a request to URL, WHEN it finishes THEN run convertToJson
+// WHEN it finishes THEN run doStuff
+fetch(url).then(convertToJson).then(doStuffList);
