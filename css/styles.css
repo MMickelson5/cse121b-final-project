@@ -29,6 +29,7 @@ canvas {
     margin-top: 1rem;
     margin-right: 2rem;
     box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
 }
 
 code {
