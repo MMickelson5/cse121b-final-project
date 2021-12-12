@@ -20,7 +20,7 @@ function doGraph() {
             datasets: [{
             fill: false,
             pointRadius: 0,
-            borderColor: '#FF8333',
+            borderColor: '#F0984A',
             data: yValues
             }]
         },    

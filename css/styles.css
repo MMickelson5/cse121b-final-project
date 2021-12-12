@@ -9,7 +9,7 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #FF8333;
+    background: #338F9A;
     color: white;
     text-align: center;
     padding: .5rem;
@@ -28,7 +28,7 @@ canvas {
     width: auto;
     margin-top: 1rem;
     border-radius: 10px;
-    background: darkgray;
+    background: #7AA9A3;
 }
 
 .functions {
@@ -37,7 +37,7 @@ canvas {
 }
 
 button {
-    background: #FF8333;
+    background: #D95F3B;
     color: white;
     border: none;
     border-radius: 10px;
@@ -53,7 +53,7 @@ input {
 
 #main-container {
     text-align: center;
-    background: #858585;
+    background: #FCD6A5;
     font-weight: 600;
     position: relative;
     margin-top: 0;
@@ -61,7 +61,7 @@ input {
 
 .text {
     text-align: center;
-    background: darkgray;
+    background: #7AA9A3;
     padding: 1rem;
     font-size: large;
 }
@@ -81,7 +81,7 @@ input {
     }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         color: #ffffffbf;
         background: #252525;
@@ -102,4 +102,4 @@ input {
     canvas {
         background: #505050;
     }
-}
+} */
