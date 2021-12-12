@@ -2,13 +2,13 @@ function doGraph() {
     var xValues = [];
     var yValues = [];
     var amp = parseFloat(document.getElementById('amp').value)
+    var period = parseFloat(document.getElementById('period').value)
 
     if (amp >= 100) {
         alert('Please enter a number under 100')
         throw new Error('Please enter a number under 100')
     }
 
-    var period = parseFloat(document.getElementById('period').value)
     var valueString = String(amp+'* (Math.sin('+period+'* x))')
 
     generateData(valueString, 0, 2*Math.PI, .005);
