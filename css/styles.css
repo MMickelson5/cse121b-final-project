@@ -9,8 +9,8 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #1a6e0a;
-    color: white;
+    background: #DDB321;
+    color: #252525;
     text-align: center;
     padding: .5rem;
 }
@@ -32,13 +32,13 @@ canvas {
 }
 
 .functions {
-    color: #1a6e0a;
+    color: #252525;
     font-size: 1.3rem;
 }
 
 button {
-    background: #1a6e0a;
-    color: white;
+    background: #DDB321;
+    color: #252525;
     border: none;
     border-radius: 10px;
     font-size: 1rem;
