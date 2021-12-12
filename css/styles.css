@@ -23,6 +23,7 @@ h1 {
 
 span, code, button {
     font-family:'Courier New', Courier, monospace;
+    margin: .5rem;
 }
 
 canvas {
