@@ -37,6 +37,21 @@ code {
     font-size: 1.125rem;
 }
 
+button {
+    background-color: #00835C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+input {
+    color: gray;
+}
+
 #main-container {
     background-color: lightgray;
     padding: 1rem;
