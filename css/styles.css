@@ -60,6 +60,7 @@ input {
 }
 
 .text {
+    text-align: center;
     background-color: darkgray;
     padding: 1rem;
     border-radius: 10px;
