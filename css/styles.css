@@ -28,6 +28,7 @@ canvas {
     width: auto;
     margin-top: 1rem;
     box-shadow: 2px 2px 10px black;
+    background: #aaaaaa;
     border-radius: 10px;
 }
 
@@ -53,7 +54,7 @@ input {
 
 #main-container {
     text-align: center;
-    background: lightgray;
+    background: #c5c4c4;
     font-weight: 600;
     position: relative;
     margin-top: 0;
@@ -61,7 +62,7 @@ input {
 
 .text {
     text-align: center;
-    background: darkgray;
+    background: #aaaaaa;
     padding: 1rem;
     font-size: large;
 }
@@ -85,6 +86,10 @@ input {
     body {
         color: #ffffffbf;
         background: #252525;
+    }
+
+    canvas {
+        background: #505050;
     }
 
     #main-container {
