@@ -27,7 +27,6 @@ span, code, button {
 canvas {
     width: auto;
     margin-top: 1rem;
-    box-shadow: 2px 2px 10px black;
     border-radius: 10px;
     background: darkgray;
 }
@@ -82,7 +81,7 @@ input {
     }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
         color: #ffffffbf;
         background: #252525;
@@ -95,4 +94,8 @@ input {
     .text {
         background: #505050;
     }
-} */
+
+    canvas {
+        background: #505050;
+    }
+}
