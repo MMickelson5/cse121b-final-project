@@ -6,7 +6,7 @@ body {
     margin-right: auto;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
     background: #00835C;
@@ -83,12 +83,8 @@ input {
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #eee;
+        color: #ffffffbf;
         background: #252525;
-    }
-
-    canvas {
-        color: white;
     }
 
     #main-container {
