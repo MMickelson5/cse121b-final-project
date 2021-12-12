@@ -9,8 +9,8 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #543A40;
-    color: white;
+    background: #40B4C2;
+    color: #252525;
     text-align: center;
     padding: .5rem;
 }
@@ -28,17 +28,17 @@ canvas {
     width: auto;
     margin-top: 1rem;
     border-radius: 10px;
-    background: darkgray;
+    background: #40B4C2;
 }
 
 .functions {
-    color: #605D58;
+    color: #8DD9C7;
     font-size: 1.3rem;
 }
 
 button {
-    background: #543A40;
-    color: white;
+    background: #0D9CBF;
+    color: #8DD9C7;
     border: none;
     border-radius: 10px;
     font-size: 1.125rem;
@@ -53,7 +53,7 @@ input {
 
 #main-container {
     text-align: center;
-    background: #333237;
+    background: #0D9CBF;
     font-weight: 600;
     position: relative;
     margin-top: 0;
@@ -61,7 +61,7 @@ input {
 
 .text {
     text-align: center;
-    background: darkgray;
+    background: #40B4C2;
     padding: 1rem;
     font-size: large;
 }
@@ -82,6 +82,11 @@ input {
 }
 
 @media (prefers-color-scheme: dark) {
+    h1,h2 {
+        background: #27A8C1;
+        color: #ffffffbf;
+    }
+
     body {
         color: #ffffffbf;
         background: #252525;
@@ -92,7 +97,7 @@ input {
     }
 
     .functions {
-        color: #CAC2B2;
+        color: #5AC1C4;
     }
 
     .text {
