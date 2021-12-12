@@ -25,6 +25,17 @@ span {
     font-family:'Courier New', Courier, monospace;
 }
 
+canvas {
+    width: auto;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 10px black;
+}
+
+code {
+    color: #01996C;
+}
+
 #main-container {
     background-color: lightgray;
     padding: 1rem;
@@ -37,11 +48,4 @@ span {
     padding: 1rem;
     border-radius: 10px;
     font-size: large;
-}
-
-canvas {
-    width: auto;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    box-shadow: 2px 2px 10px black;
 }
