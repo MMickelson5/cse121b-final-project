@@ -4,7 +4,6 @@ body {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
 }
 
 h1,h2,h3,h4,h5 {
@@ -12,7 +11,6 @@ h1,h2,h3,h4,h5 {
     font-weight: 600;
     background-color: #00835C;
     color: white;
-    border-radius: 10px;
     text-align: center;
     padding: .5rem;
 }
@@ -34,7 +32,7 @@ canvas {
 }
 
 code {
-    color: green;
+    color: #00835C;
     font-size: 1.125rem;
 }
 
@@ -56,15 +54,29 @@ input {
 #main-container {
     text-align: center;
     background-color: lightgray;
-    padding: 1rem;
-    border-radius: 10px;
     font-weight: 600;
+    position: relative;
+    margin-top: 0;
 }
 
 .text {
     text-align: center;
     background-color: darkgray;
     padding: 1rem;
-    border-radius: 10px;
     font-size: large;
+}
+
+@media only screen and (min-width: 600px) {
+    h1,h2,h3,h4,h5 {
+        border-radius: 10px;
+    }
+    
+    #main-container {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    
+    .text {
+        border-radius: 10px;
+    }
 }
