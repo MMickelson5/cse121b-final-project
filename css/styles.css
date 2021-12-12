@@ -1,0 +1,47 @@
+body {
+    width: auto;
+    min-width: 300px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: #01996C;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+    text-shadow: 0 3px 12px black;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+span {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#main-container {
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.text {
+    background-color: darkgray;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: large;
+}
+
+canvas {
+    width: auto;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    box-shadow: 2px 2px 10px black;
+}

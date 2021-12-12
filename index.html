@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="js/chart.js" async></script>
 </head>
 <body>
-    <h1>This is the heading of the page!</h1>
+    <div id="main-container">
+        <h1>Graphing Sine Waves</h1>
+        <div class="text">
+            <p>What does changing the frequency and amplitude of a sine wave do? The most basic sine wave in math is:</p>
+            <code>y = sin(x)</code>
+            <p>If you want to change the amplitude of a sine wave, or increase the distance between the Sinusoidal axis and the maximum/minumum of the wave, you can add a number in from of your sine function.</p>
+            <code>y = 2 sin(x)</code>
+            <p>To change the frequency of a sine wave, or the distance between each lobe of the wave, you can add a number in front of the x.</p>
+            <code>y = sin(2x)</code>
+            <br>
+            <br>
+            <p>You can experiment below with the amplitude and frequency of a sine wave and see what it would look like with different setting. The graph is locked so you can see how your sine wave compares to the base sine wave.</p>
+        </div>
+        <h2>Function Settings (enter values as decimals)</h2>
+        <div class="text">
+            <span>Amplitude: </span><input type="text" size="4" id="amp">
+            <span>Frequency: </span><input type="text" size="4" id="period">
+            <br>
+            <br>
+            <button id="enterBtn">Enter</button><span><-- Create Graph | Clear Graph --> </span><button id="clearBtn">Clear</button>
+            <br>
+        </div>
+        
+        <canvas id="chart"></canvas>
 
-    <ul id="outputList">
-        <li id="pokeList"></li>
-    </ul>
+    </div>
 </body>
 </html>
