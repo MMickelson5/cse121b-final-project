@@ -9,7 +9,7 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #007ca1;
+    background: #910b0b;
     color: white;
     text-align: center;
     padding: .5rem;
@@ -32,12 +32,12 @@ canvas {
 }
 
 .functions {
-    color: #007ca1;
+    color: #910b0b;
     font-size: 1.3rem;
 }
 
 button {
-    background: #007ca1;
+    background: #910b0b;
     color: white;
     border: none;
     border-radius: 10px;
@@ -81,7 +81,7 @@ input {
     }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         color: #ffffffbf;
         background: #252525;
@@ -91,6 +91,10 @@ input {
         background: #404040;
     }
 
+    .functions {
+    color: black;
+    }
+
     .text {
         background: #505050;
     }
@@ -98,4 +102,4 @@ input {
     canvas {
         background: #505050;
     }
-}
+} */
