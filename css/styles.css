@@ -21,7 +21,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-span {
+span, code, button {
     font-family:'Courier New', Courier, monospace;
 }
 
