@@ -81,7 +81,7 @@ input {
     }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     h1,h2 {
         color: #FCD6A5;
     }
@@ -106,4 +106,4 @@ input {
     canvas {
         background: #505050;
     }
-} */
+}
