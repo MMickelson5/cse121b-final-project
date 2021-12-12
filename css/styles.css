@@ -9,8 +9,8 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #42a59d;
-    color: #252525;
+    background: #543A40;
+    color: white;
     text-align: center;
     padding: .5rem;
 }
@@ -32,13 +32,13 @@ canvas {
 }
 
 .functions {
-    color: #252525;
+    color: #605D58;
     font-size: 1.3rem;
 }
 
 button {
-    background: #42a59d;
-    color: #252525;
+    background: #543A40;
+    color: white;
     border: none;
     border-radius: 10px;
     font-size: 1.125rem;
@@ -53,7 +53,7 @@ input {
 
 #main-container {
     text-align: center;
-    background: #858585;
+    background: #333237;
     font-weight: 600;
     position: relative;
     margin-top: 0;
@@ -92,7 +92,7 @@ input {
     }
 
     .functions {
-    color: #42a59d;
+        color: #CAC2B2;
     }
 
     .text {
