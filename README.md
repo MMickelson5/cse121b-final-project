@@ -1,5 +1,4 @@
-*Link:
-# https://mmickelson5.github.io/test-page/
+# Link: https://mmickelson5.github.io/test-page/
 
 ```
 root
