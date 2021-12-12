@@ -53,6 +53,7 @@ input {
 }
 
 #main-container {
+    text-align: center;
     background-color: lightgray;
     padding: 1rem;
     border-radius: 10px;
