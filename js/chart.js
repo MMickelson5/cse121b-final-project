@@ -28,7 +28,7 @@ function doGraph() {
             legend: {display: false},
             title: {
             display: true,
-            text: 'y = '+ amp +'sin('+period+'x)',
+            text: 'f(x) = '+ amp +'sin('+period+'x)',
             fontSize: 16
             }
         }
