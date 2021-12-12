@@ -7,7 +7,7 @@ root
     +-- chart.js
   +-- css
     +-- styles.css
-READEME.md
+README.md
 ```
 ---
 * author: Reece Mickelson
