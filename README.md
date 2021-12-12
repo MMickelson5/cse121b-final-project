@@ -1,4 +1,4 @@
-# Link: https://mmickelson5.github.io/cse121b-final-project/
+# Link: https://mmickelson5.github.io/cse121b-final-project/index.html
 
 ```
 root
