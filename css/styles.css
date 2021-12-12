@@ -9,7 +9,7 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #5e3f27;
+    background: #FF8333;
     color: white;
     text-align: center;
     padding: .5rem;
@@ -37,7 +37,7 @@ canvas {
 }
 
 button {
-    background: #5e3f27;
+    background: #FF8333;
     color: white;
     border: none;
     border-radius: 10px;
@@ -92,7 +92,7 @@ input {
     }
 
     .functions {
-    color: #252525;
+    color: #FF8333;
     }
 
     .text {
