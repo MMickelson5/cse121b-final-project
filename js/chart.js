@@ -19,8 +19,8 @@ function doGraph() {
             labels: xValues,
             datasets: [{
             fill: false,
-            pointRadius: 0,
-            borderColor: '#252525',
+            pointRadius: 2,
+            borderColor: '#42a59d',
             data: yValues
             }]
         },    
