@@ -4,6 +4,7 @@ function doGraph() {
     var amp = parseFloat(document.getElementById('amp').value)
 
     if (amp >= 100) {
+        alert('Please enter a number under 100')
         throw new Error('Please enter a number under 100')
     }
 
