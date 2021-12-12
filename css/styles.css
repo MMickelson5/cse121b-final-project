@@ -9,7 +9,7 @@ body {
 h1,h2 {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 600;
-    background: #DDB321;
+    background: #712cc0;
     color: #252525;
     text-align: center;
     padding: .5rem;
@@ -32,17 +32,17 @@ canvas {
 }
 
 .functions {
-    color: #252525;
+    color: #712cc0;
     font-size: 1.3rem;
 }
 
 button {
-    background: #DDB321;
+    background: #712cc0;
     color: #252525;
     border: none;
     border-radius: 10px;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.125rem;
+    font-weight: 600;
     text-decoration: none;
     padding: 5px 15px;
 }
