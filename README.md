@@ -9,6 +9,7 @@ root
     +-- styles.css
 README.md
 ```
+Final project for CSE 121b at BYU-I 2021
 ---
 * author: Reece Mickelson
 * class: CSE 121B
